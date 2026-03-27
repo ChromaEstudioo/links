@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chroma Estudio | Enlaces</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fbe39d; /* TU COLOR CREMA */
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 20px;
+            color: #8c641e; /* TU COLOR DORADO OSCURO */
+        }
+        .container { width: 100%; max-width: 400px; text-align: center; }
+        
+        .logo-img { 
+            width: 110px; 
+            height: auto; 
+            margin-bottom: 20px;
+            /* Si tu logo es oscuro, resaltará perfecto sobre el crema */
+        }
+
+        h1 { 
+            font-size: 22px; 
+            font-weight: 800; 
+            text-transform: uppercase; 
+            letter-spacing: 3px; 
+            margin-bottom: 5px;
+            color: #8c641e;
+        }
+
+        .insta-link {
+            color: #8c641e;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 14px;
+            display: block;
+            margin-bottom: 12px;
+            opacity: 0.9;
+        }
+
+        .subtitle { 
+            font-size: 15px; 
+            font-weight: 400;
+            color: #8c641e; 
+            margin-bottom: 40px;
+            letter-spacing: 0.5px;
+        }
+
+        .link-button {
+            display: block;
+            background-color: #8c641e; /* BOTÓN DORADO */
+            color: #fbe39d; /* LETRAS CREMA */
+            text-decoration: none;
+            padding: 18px;
+            margin-bottom: 18px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            transition: 0.3s ease;
+            border: 2px solid #8c641e;
+        }
+
+        .link-button:hover {
+            background-color: transparent;
+            color: #8c641e;
+            transform: translateY(-3px);
+        }
+
+        .footer { 
+            margin-top: 60px; 
+            font-size: 10px; 
+            color: #8c641e; 
+            letter-spacing: 2px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Chroma Estudio" class="logo-img">
+        
+        <h1>CHROMA ESTUDIO</h1>
+        <a href="https://www.instagram.com/chromaestudio" target="_blank" class="insta-link">@chromaestudio</a>
+        <p class="subtitle">Diseño estratégico para tu negocio</p>
+
+        <a href="https://wa.me/543512048953?text=Hola%20Chroma%20Estudio,%20me%20gustaría%20consultar%20por%20sus%20servicios" target="_blank" class="link-button">
+            Contact us via WhatsApp
+        </a>
+        
+        <a href="https://www.behance.net/rociomeyerr" target="_blank" class="link-button">
+            Our work & Portfolio
+        </a>
+
+        <a href="https://forms.gle/hyitx4hqmV1oVpJP9" target="_blank" class="link-button">
+            Formulario de contacto
+        </a>
+
+        <div class="footer">© 2026 CHROMA ESTUDIO</div>
+    </div>
+</body>
+</html>
